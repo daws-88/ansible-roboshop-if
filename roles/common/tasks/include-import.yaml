@@ -1,7 +1,7 @@
 - name: testing include vs import
   ansible.builtin.debug:
-    msg: HI 
+    msg: "HI"
 
 -  name: testing include vs import
    ansible.builtin.debug:
-     msg: HELLO
+     msg: "HELLO"
