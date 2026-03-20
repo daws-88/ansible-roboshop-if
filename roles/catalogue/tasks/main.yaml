@@ -9,6 +9,8 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: nodejs.yaml
+  tags:
+  - deplyment
 
 - name: copy mongodb repo
   ansible.builtin.copy:
