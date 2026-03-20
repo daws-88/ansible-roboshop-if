@@ -9,3 +9,5 @@
     name: "{{ component  }}"
     state: restarted
     enabled: yes
+  tags:
+  - deployment
