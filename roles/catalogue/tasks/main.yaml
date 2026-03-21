@@ -7,8 +7,7 @@
   ansible.builtin.include_role:
     name: common
     tasks_from: nodejs.yaml
-  tags:
-  - deployment
+  
   
 - name: copy mongodb repo
   ansible.builtin.copy:
@@ -32,5 +31,4 @@
   ansible.builtin.include_role:
     name: common
     tasks_from: system-setup.yaml
-  tags:
-  - deployment
+  

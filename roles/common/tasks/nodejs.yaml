@@ -12,5 +12,4 @@
 - name: Install packages and dependencies
   community.general.npm:
     path: /app
-  tags:
-  - deployment
+  
