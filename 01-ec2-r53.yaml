@@ -3,14 +3,13 @@
   connection: local
   vars:
     ami_id: ami-0220d79f3f480ecf5
-    sg_id:  sg-00234e667183faf3a
-    zone_id: "Z0209787199P76DBHQQAW" 
+    sg_id:  sg-072abb792ef02fb77
+    zone_id: "Z04408301YE1UN4Q5BR1X"
     domain_name: "daws88s.fun"
     # we can also create intances through cl line
     instances:
     - mongodb
     - mysql
-    - rabbitmq
     - catalogue
     
   tasks:
