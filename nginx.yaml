@@ -2,7 +2,7 @@
   hosts: dynamic_frontend
   become: yes
   tasks:
-    - name: Install nginx package
-      ansible.builtin.dnf:
-        name: nginx
-        state: present
+  - name: Install nginx package
+    ansible.builtin.dnf:
+      name: nginx
+      state: present
